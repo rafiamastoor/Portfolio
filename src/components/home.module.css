@@ -1,0 +1,88 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: black;
+  color: teal;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Main Body */
+.main {
+  flex: 1;
+  background-image: url('/assets/background.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+  color: teal;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #40716b;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  .header,
+  .footer {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .overlay {
+    padding: 1rem;
+  }
+}
+
