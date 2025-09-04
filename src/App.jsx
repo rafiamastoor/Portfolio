@@ -2,21 +2,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './components/home';
-
-function Education() {
-  return <h2>Education Section</h2>;
-}
-
-function Experience() {
-  return <h2>Experience Section</h2>;
-}
+import Education from './components/education';
+import Experience from './components/experience';
+import Projects from './components/projects';
 
 function Activities() {
   return <h2>Activities Section</h2>;
-}
-
-function Projects() {
-  return <h2>Projects Section</h2>;
 }
 
 function Contact() {
