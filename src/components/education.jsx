@@ -9,12 +9,12 @@ function Education() {
                 <div className={styles.card}>
                   <div className={styles.cardInner}>
                     <div className={styles.cardFront}>
-                      <h2>Level 4 - Full Stack Application Development</h2>
+                      <h2>Level 4 - Full Stack Web Development</h2>
                       <p className={styles.labelText}>Jun'25 - Sep'25</p>
                       <p className={styles.descriptionText}>BCS Certified</p>
                     </div>
                     <div className={styles.cardBack}>
-                      <p>Focused on full-stack development, UI/UX design, and backend modeling. Had hands-on experience in building web applications in HTML, CSS, JavaScript and MySQL.</p>
+                      <p className={styles.backText}>Focused on full-stack development, UI/UX design, and backend modeling. Had hands-on experience in building web applications in HTML, CSS, JavaScript and MySQL.</p>
                     </div>
                   </div>
                 </div>
@@ -26,7 +26,7 @@ function Education() {
                       <p className={styles.descriptionText}>National University of Computers & Emerging Sciences, Pakistan</p>
                     </div>
                     <div className={styles.cardBack}>
-                      <p>Four year bachelor programme with focus on object oriented programming in C++, Data Structures, databases, advanced maths, algorithms and final project which was Reverse Engineering Decompiler.</p>
+                      <p className={styles.backText}>Four year bachelor programme with focus on object oriented programming in C++, Data Structures, databases, advanced maths, algorithms and final project which was Reverse Engineering Decompiler.</p>
                     </div>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ function Education() {
                       <p className={styles.descriptionText}>Leicester College</p>
                     </div>
                     <div className={styles.cardBack}>
-                      <p>Covered essential elements of working in schools like child protection, GDPR, SEN support and child development.</p>
+                      <p className={styles.backText}>Covered essential elements of working in schools like child protection, GDPR, SEN support and child development.</p>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ function Education() {
                       <p className={styles.descriptionText}>Centre of Excellence</p>
                     </div>
                     <div className={styles.cardBack}>
-                      <p>Learnt about time management, resource management, task assignments and tracking.</p>
+                      <p className={styles.backText}>Learnt about time management, resource management, task assignments and tracking.</p>
                     </div>
                   </div>
                 </div>
