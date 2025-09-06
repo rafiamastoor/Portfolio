@@ -1,4 +1,5 @@
 import styles from './sections.module.css';
+import { FaLinkedin } from 'react-icons/fa';
 
 function Project() {
   return (
@@ -8,11 +9,13 @@ function Project() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>Travel Blog App</h3>
-                <p>React · CSS Modules · Vite</p>
+                <h2>Weather Application</h2>
+                <p>HTML - CSS - JavaScript</p>
+                <p>Webpage: https://stevehunt70.github.io/project_weather_report/
+                    Github: https://github.com/stevehunt70/project_weather_report.git</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Designed a responsive travel blog with modular components, dynamic routing, and polished UI. Focused on user experience and visual storytelling.</p>
+                <p>A group project to build web application in HTML, CSS, JavaScript that uses openweathermap API to display weather data for any city.</p>
               </div>
             </div>
           </div>
@@ -20,11 +23,13 @@ function Project() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>Financial Statement Portal</h3>
-                <p>Node.js · Sequelize · Sage API</p>
+                <h2>Note-Taking Application</h2>
+                <p>HTML - CSS - JavaScript</p>
+                <p>Webpage: https://notetakingfullstackapplication.onrender.com/
+                    Github:https://github.com/rafiamastoor/NoteTakingFullStackApplication.git</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Built a secure portal for generating user-facing financial reports. Implemented authentication, session handling, and backend modeling with MySQL.</p>
+                <p>This web application was built using HTML, CSS, JavaScript and Json for storing notes. User could edit or delete notes as well.</p>
               </div>
             </div>
           </div>
@@ -56,8 +61,16 @@ function Project() {
       </main>
 
       <footer className={styles.footer}>
-        <p>© 2025 Rafia Mastoor. All rights reserved.</p>
-      </footer>
+              <a
+                  href="https://www.linkedin.com/in/rafia-mastoor-545573331"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+              >
+                  <FaLinkedin className={styles.socialIcon} />
+                  <span className={styles.socialText}>Connect on LinkedIn</span>
+              </a>
+            </footer>
     </div>
   );
 }

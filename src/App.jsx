@@ -5,14 +5,8 @@ import Home from './components/home';
 import Education from './components/education';
 import Experience from './components/experience';
 import Projects from './components/projects';
-
-function Activities() {
-  return <h2>Activities Section</h2>;
-}
-
-function Contact() {
-  return <h2>Contact Section</h2>;
-}
+import Activities from './components/activities';
+import Contact from './components/contact';
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import styles from './sections.module.css';
+import { FaLinkedin } from 'react-icons/fa';
 
 function Experience() {
   return (
@@ -8,12 +9,12 @@ function Experience() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>Frontend Developer</h3>
-                <p>2023–Present</p>
-                <p>Travel Blog App</p>
+                <h2>Exams & Assessment Officer</h2>
+                <p className={styles.labelText}>2021–Present</p>
+                <p className={styles.descriptionText}>Judgemeadow Community College - Leicester</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Architected a responsive React-based travel blog with modular components, CSS Modules, and dynamic routing. Focused on UI polish and user experience.</p>
+                <p>Responsible for conducting GCSE exams as per JCQ regulations. Deal with hiring and induction of invigilators, MIS, reporting , Awarding bodies and their portals. Exam entries, seatings, results and post-results are also managed by myself. </p>
               </div>
             </div>
           </div>
@@ -21,12 +22,12 @@ function Experience() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>Backend Engineer</h3>
-                <p>2023–Present</p>
-                <p>Financial Portal</p>
+                <h2>Supply Teaching Assistant</h2>
+                <p className={styles.labelText}>2020–2021</p>
+                <p className={styles.descriptionText}>Supply Personnel</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Built secure login and session handling using Sequelize and MySQL. Integrated Sage APIs to generate user-facing financial statements with persistent data models.</p>
+                <p>Worked with Year 4 to develop reading fluency and comprehension. Focus on vocabulary, comprehension, inference, imagination and prediction skills of students and design SMART goals for them to achieve them.</p>
               </div>
             </div>
           </div>
@@ -34,12 +35,14 @@ function Experience() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>UI/UX Designer</h3>
-                <p>2022–2023</p>
-                <p>Portfolio Site</p>
+                <h2>Exam Invigilator</h2>
+                <p className={styles.labelText}>2019–2020</p>
+                <p className={styles.descriptionText}>Soar Valley College & Fullhurst College</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Designed and styled a personal portfolio with interactive effects, responsive layout, and modular architecture. Emphasized clarity, aesthetics, and usability.</p>
+                <p>Conduct exams according to JCQ regulations. Make sure that access
+                    arrangements for all the entitled candidates are in place. Setting up exam halls,
+                    managing attendance, seating plans, packing scripts etc.</p>
               </div>
             </div>
           </div>
@@ -47,12 +50,27 @@ function Experience() {
           <div className={styles.card}>
             <div className={styles.cardInner}>
               <div className={styles.cardFront}>
-                <h3>Technical Educator</h3>
-                <p>2021–2022</p>
-                <p>Education Sector</p>
+                <h2>Computer Teacher (Y6- Y8)</h2>
+                <p className={styles.labelText}>2005–2007</p>
+                <p className={styles.descriptionText}>The Lahore Alma, Lahore, Pakistan</p>
               </div>
               <div className={styles.cardBack}>
-                <p>Delivered coding workshops and mentored students in web development fundamentals. Focused on hands-on learning and iterative problem-solving.</p>
+                <p>Teach theory in classroom and practical in lab-sessions. Design curriculum, make
+                    lesson plans and mark assessments.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.cardInner}>
+              <div className={styles.cardFront}>
+                <h2>Examination Services Officer</h2>
+                <p className={styles.labelText}>2004–2005</p>
+                <p className={styles.descriptionText}>British Council, Lahore</p>
+              </div>
+              <div className={styles.cardBack}>
+                <p>Conduct UK based exams O/A levels, ACCA, IELTS etc in Pakistan. Developed an online system for IELTS department to handle exam activities
+which was approved by IT department in UK</p>
               </div>
             </div>
           </div>
@@ -60,8 +78,16 @@ function Experience() {
       </main>
 
       <footer className={styles.footer}>
-        <p>© 2025 Rafia Mastoor. All rights reserved.</p>
-      </footer>
+              <a
+                  href="https://www.linkedin.com/in/rafia-mastoor-545573331"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+              >
+                  <FaLinkedin className={styles.socialIcon} />
+                  <span className={styles.socialText}>Connect on LinkedIn</span>
+              </a>
+            </footer>
     </div>
   );
 }
